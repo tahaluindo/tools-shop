@@ -1,0 +1,79 @@
+.dlfHg div:first-child {
+    white-space: break-spaces!important;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination li:not(.break) {
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 50%;
+    border: solid 1px;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.pagination li:hover {
+    background-color: #7366ff;
+    color: white;
+}
+
+.pagination .break {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pagination li.active {
+    background-color: #7366ff;
+    color: white;
+}
+
+.iTfAyo, .dMPDOg {
+    background-color: transparent!important;
+    color: white;
+}
+
+.dark-only .dMPDOg div {
+    color: white;
+}
+
+.dark-only .login-card .login-main {
+    background-color: rgba(29, 30, 38, 0.5);
+    border: 2px solid;
+}
+
+.login-card .login-main{
+    background-color: rgba(29, 30, 38, 0.5);
+}
+
+.custom-loader-box {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.dark-only .custom-loader-box {
+    background-color: #1d1e26;
+}
+
+body.dark-only .border-tab.nav-tabs .nav-item .nav-link {
+    color: white;
+}
+
+body.dark-only .border-tab.nav-tabs .nav-item .nav-link.active {
+    color: rgba(115, 102, 255, 0.9);
+}
